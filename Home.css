@@ -2,6 +2,43 @@ body {
     background-color: #003087;
 }
 
+#YT {
+  position: absolute;
+  top: 20%;
+  left:30%;
+}
+#YTI {
+  position: absolute;
+  left: 35%;
+}
+#GH {
+  position: absolute;
+  top: 20%;
+  left:40%;
+}
+#GHI {
+  position: absolute;
+  left: 35%;
+}
+#NM {
+  position: absolute;
+  top: 20%;
+  left:50%;
+}
+#NMI {
+  position: absolute;
+  left: 35%;
+}
+#DC {
+  position: absolute;
+  top: 20%;
+  left:60%;
+}
+#DCI {
+  position: absolute;
+  left: 36%;
+}
+
 #google {
   align-items: center;
   position: absolute;
