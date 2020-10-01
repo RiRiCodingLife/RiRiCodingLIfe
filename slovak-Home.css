@@ -2,7 +2,7 @@ body {
     background-color: rgb(65, 11, 22);
 }
 
-#nepalitext {
+#text {
   position: absolute;
   top: 115%;
   left: 40%;
@@ -20,46 +20,10 @@ body {
     overflow: hidden;
     text-align: center;
 }
-#nepalittext {
+#ttext {
   position: absolute;
   top: 115%;
-  left: 52%;
-  border-radius: 50%;
-  border-width: 5px;
-  border-color: lightgoldenrodyellow;
-  display: inline-block;
-    width: 90px;
-    height: 90px;
-    background: #f1f1f1;
-    margin: 10px;
-    border-radius: 30%;
-    box-shadow: 0 5px 15px -5px #00000070;
-    color: #3498db;
-    overflow: hidden;
-    text-align: center;
-}
-#slovaktext {
-  position: absolute;
-  top: 130%;
-  left: 40%;
-  border-radius: 50%;
-  border-width: 5px;
-  border-color: lightgoldenrodyellow;
-  display: inline-block;
-    width: 90px;
-    height: 90px;
-    background: #f1f1f1;
-    margin: 10px;
-    border-radius: 30%;
-    box-shadow: 0 5px 15px -5px #00000070;
-    color: #3498db;
-    overflow: hidden;
-    text-align: center;
-}
-#slovakttext {
-  position: absolute;
-  top: 130%;
-  left: 52%;
+  left: 50%;
   border-radius: 50%;
   border-width: 5px;
   border-color: lightgoldenrodyellow;
