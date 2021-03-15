@@ -197,6 +197,71 @@ body {
 }
 
 
+#RDE {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-size:400%;
+    border-radius: 30px;
+    z-index: 1;
+    color: #7FADE3;
+    
+}
+#RDEINFO {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-size:400%;
+    border-radius: 30px;
+    z-index: 1;
+    color: #7FADE3;
+    
+}
+#RDEYT {
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-size:400%;
+    border-radius: 30px;
+    z-index: 1;
+    color: #7FADE3;
+    
+}
+
+
 
 * {
     margin: 0;
