@@ -1,0 +1,254 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+   
+    background: #2b2b2b;
+    
+    transition: 0.5s;
+}
+
+body.active
+{
+    background: #f8f8f8;
+    transition: 1s;
+}
+
+#toggle.active
+{
+    background: #fff;
+}
+
+#toggle .indicator
+{
+   position: absolute; 
+   top: 5.5%;
+   right: -1%;
+   width: 1934px;
+   height: 50px;
+   background: linear-gradient(to bottom, #eaeaea, #f9f9f9);
+
+   transform: scale(0.9);
+   
+    transition: 10s;
+    cursor: pointer;
+                    
+}
+#toggle.active .indicator
+{
+    background: linear-gradient(to bottom, #444, #222);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1),
+                inset 0 4px 4px rgba(255,255,255,1),
+                inset 0 -4px 4px rgba(255,255,255,1);
+}
+#title
+{
+    position: absolute;
+    top: 12%;
+    left: 39.8%;
+}
+#desc
+{
+    position: absolute;
+    top: 20%;
+    left: 31%;
+    font-size: 200%;
+}
+#credits
+{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: 200%;
+}
+#java
+{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 200%;
+}
+#notch
+{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-size: 200%;
+}
+#mojang-studios
+{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 200%;
+}
+#forge
+{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    font-size: 200%;
+}
+#fabric
+{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 200%;
+}
+#ririthenerd
+{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-size: 200%;
+}
+#item-list
+{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+}
+#trident
+{
+    position: absolute;
+    top: 30%;
+    left: 46.1%;
+    font-size: 200%;
+
+}
+#totem
+{
+    position: absolute;
+    top: 35%;
+    left: 42.5%;
+    font-size: 200%;
+
+}
+#bell
+{
+    position: absolute;
+    top: 40%;
+    left: 47%;
+    font-size: 200%;
+
+}
+#enchanted-golden-apple
+{
+    position: absolute;
+    top: 45%;
+    left: 40.7%;
+    font-size: 200%;
+
+}
+#nether-wart
+{
+    position: absolute;
+    top: 50%;
+    left: 44.6%;
+    font-size: 200%;
+
+}
+#saddle
+{
+    position: absolute;
+    top: 55%;
+    left: 46.5%;
+    font-size: 200%;
+
+}
+#contact
+{
+    position: absolute;
+    top: 25%;
+    left: 85%;
+    font-size: 200%;
+
+}
+#discord
+{
+    position: absolute;
+    top: 30%;
+    right: 9%;
+    font-size: 200%;
+
+}
+#downloads
+{
+    position: absolute;
+    top: 60%;
+    left: 43%;
+    font-size: 300%;
+
+}
+#forgeimg
+{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 420px; 
+    height: 400px;
+    
+
+}
+#forge-download
+{
+    position: absolute;
+    top: 95%;
+    left: 4.7%;
+    font-size: x-large;
+    
+
+}
+#fabricimg
+{
+    position: absolute;
+    top: 100%;
+    left: 39.5%;
+    width: 420px;
+    height: 400px;
+    
+
+}
+#fabric-download
+{
+    position: absolute;
+    top: 95%;
+    left: 44.3.5%;
+    font-size: x-large;
+    
+
+}
+#curseforgeimg
+{
+    position: absolute;
+    top: 100%;
+    left: 79%;
+    width: 400px;
+    height: 400px;
+    
+
+}
+#curseforge-download
+{
+    position: absolute;
+    top: 95%;
+    left: 82.5%;
+    font-size: x-large;
+    
+
+}
+
+
+
+
+
+
+
+
