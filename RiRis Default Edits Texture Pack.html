@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="RDE.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Useful Crafting Recipes Wiki</title>
+</head>
+<body id="mainpage">
+    <div id="toggle">
+        <i class="indicator"></i>
+    </div>
+    <h1 id = "title">RiRi's Default Edit Texture Pack</h1>
+    <P id = "desc">This texture pack makes some changes to Minecraft's default textures</P>
+    <h2 id = "downloads"></h2>
+    <a id = "onepointsixteen-download" href="RiRi's Defualt Edit V2.zip">1.16.X Download Link</a>
+    <a id = "onepointeight-download" href="RiRi's Default Edit V2 1.8.9.zip">1.8.X Download Link</a>
+
+
+    
+
+    <script>
+     
+            document.getElementById("title").style.color = "gray";
+            document.getElementById("desc").style.color = "gray";
+            
+            document.getElementById("downloads").style.color = "gray";
+            document.getElementById("onepointsixteen-download").style.color = "gray";
+            document.getElementById("onepointeight-download").style.color = "gray";
+
+            const body = document.querySelector('body');
+            const toggle = document.getElementById('toggle');
+            toggle.onclick = function(){
+                toggle.classList.toggle('active');
+                body.classList.toggle('active');
+            
+            }
+        
+    </script>
+
+</body>
+</html>
