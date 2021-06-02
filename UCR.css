@@ -139,6 +139,7 @@ body.active
     font-size: 200%;
 
 }
+
 #enchanted-golden-apple
 {
     position: absolute;
@@ -163,6 +164,39 @@ body.active
     font-size: 200%;
 
 }
+#ch
+{
+    position: absolute;
+    top: 60%;
+    left: 43%;
+    font-size: 200%;
+
+}
+#cc
+{
+    position: absolute;
+    top: 65%;
+    left: 43%;
+    font-size: 200%;
+
+}
+#cl
+{
+    position: absolute;
+    top: 70%;
+    left: 43%;
+    font-size: 200%;
+
+}
+#cb
+{
+    position: absolute;
+    top: 75%;
+    left: 43%;
+    font-size: 200%;
+
+}
+
 #contact
 {
     position: absolute;
@@ -206,6 +240,13 @@ body.active
     
 
 }
+#warningforge
+{
+    position: absolute;
+    top: 90%;
+    left: 4.0%;
+    font-size: x-large;
+}
 #fabricimg
 {
     position: absolute;
@@ -225,6 +266,16 @@ body.active
     
 
 }
+#warningfabric
+{
+    position: absolute;
+    top: 90%;
+    left: 44.3.5%;
+    font-size: x-large;
+    
+
+}
+
 #curseforgeimg
 {
     position: absolute;
@@ -239,6 +290,15 @@ body.active
 {
     position: absolute;
     top: 95%;
+    left: 82.5%;
+    font-size: x-large;
+    
+
+}
+#warningcurseforge
+{
+    position: absolute;
+    top: 90%;
     left: 82.5%;
     font-size: x-large;
     
